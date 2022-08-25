@@ -1,0 +1,115 @@
+css /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* custom styles */
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../media/01.png') ;
+    background-attachment: fixed;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* header */
+
+.header{
+   text-align: center;
+   font-size: 36px;
+   margin-top: 20px; 
+   color: white;
+   font-weight: 700;
+}
+
+/* section  */
+
+
+
+.box{
+    width: 100%;
+
+    height: 400px ;
+    margin: 80px 30px;
+    border-radius: 20px;
+    background-color: rgb(231,1,67);
+    font-size: 26px ;
+    font-weight: 700;
+}
+
+.box-2{
+    background: linear-gradient(to left,rgba(231, 1, 66, 0.79),rgb(46,41,35));
+}
+
+.box-3{
+    background: radial-gradient(rgb(231, 1, 66) ,rgb(46,41,35));
+}
+.box-4{ 
+    width: 100%;
+    height: 500px;
+    background:linear-gradient(to left top, rgba(237, 20, 62,0.5),transparent), url(../media/02.png);
+    margin: 40px 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    font-size: 26px;
+    font-weight: 700;
+    color: rgb(217, 220, 224);
+}
